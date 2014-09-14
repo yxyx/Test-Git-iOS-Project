@@ -21,6 +21,7 @@
 		B2FB8EC719C2938F0080E320 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FB8EA919C2938F0080E320 /* UIKit.framework */; };
 		B2FB8ECF19C2938F0080E320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2FB8ECD19C2938F0080E320 /* InfoPlist.strings */; };
 		B2FB8ED119C2938F0080E320 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FB8ED019C2938F0080E320 /* Git_TestTests.m */; };
+		B2FB8EDC19C5C7150080E320 /* XYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FB8EDB19C5C7150080E320 /* XYTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B2FB8ECC19C2938F0080E320 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		B2FB8ECE19C2938F0080E320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2FB8ED019C2938F0080E320 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		B2FB8EDA19C5C7150080E320 /* XYTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTest.h; sourceTree = "<group>"; };
+		B2FB8EDB19C5C7150080E320 /* XYTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		B2FB8E9919C2938F0080E320 = {
 			isa = PBXGroup;
 			children = (
+				B2FB8EDA19C5C7150080E320 /* XYTest.h */,
+				B2FB8EDB19C5C7150080E320 /* XYTest.m */,
 				B2FB8EAB19C2938F0080E320 /* Git Test */,
 				B2FB8ECA19C2938F0080E320 /* Git TestTests */,
 				B2FB8EA419C2938F0080E320 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FB8EDC19C5C7150080E320 /* XYTest.m in Sources */,
 				B2FB8EB219C2938F0080E320 /* main.m in Sources */,
 				B2FB8EBC19C2938F0080E320 /* XYViewController.m in Sources */,
 				B2FB8EB619C2938F0080E320 /* XYAppDelegate.m in Sources */,
